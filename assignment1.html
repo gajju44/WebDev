@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vs code</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style>
+    
+    body{
+    background-color: #0e0e0e;
+    color: #9ba3b4;
+    font-family: 'Roboto';
+    
+    }
+    .navbar{
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    }
+.logo{
+    display: flex;
+    color: white;
+    font-size: 20px;    
+    font-weight: 500;
+  
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #9ba3b4;
+}
+a:hover{
+    color: white;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#bright{
+    width: 30px;
+    height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+
+#bright:hover{
+    background-color: #9ba3b43d;
+}
+.first{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.second{
+    display: flex;
+    gap: 8px;
+}
+
+#down{
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    border: 1px solid rgb(255 255 255 / 15%);
+    height: 25px;
+    width: 200px;
+    background-color: #0e0e0e !important;;
+}
+#left-btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 32px;
+    background-color: #ffffff0a;
+    border: 1px solid #ffffff12;
+    color: #9ba3b4;
+    margin-bottom: 8px;
+    width: 340px;
+}
+
+.container{
+    margin: 100px 100px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 400px;
+  
+    font-weight: 500;
+}
+
+.download{
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 12px 24px;
+    width: 240px;
+font-weight: 600;
+}
+
+.right{
+    width: 720px;
+}
+
+.container{
+    display: flex;
+}
+
+.para>a{
+    color: #4daafc;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.para2>a{
+    color: #4daafc;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 500;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="navbar">
+
+            <div class="first">
+            <div class="logo" style="gap: 10px;"> <img style="width: 24px; height: 24px;" src="resource/vscode.svg" alt=""> Visual Studio Code</div>
+           
+           <div class="btns"> 
+            <a href="">Docs</a>
+          <a href="">Updates</a>  
+           <a href="">Blog</a> 
+            <a href="">API</a>
+            <a href="">Extensions</a>
+            <a href="">FAQ</a>
+        </div>
+        </div>
+
+        <div class="second">
+
+            <a id="bright" href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="20" height="20" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+              </svg>
+              </a>
+
+              <input type="text" placeholder="Search">
+
+              <button id="down">Download</button>
+
+        </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <button id="left-btn">Free. Built on open source. Runs everywhere.</button>
+            <h1 style="font-size: 56px;   color: white;">Code <br> Editing. <br> Redefined.</h1>
+            <button  class="download">Download for Windows</button>
+            
+            <p class="para"><a href="" >Web</a>, <a href="">Insiders edition</a>, or <a href="">other platforms</a></p>
+            <p class="para2" style="font-size: 11px;">By using VS Code, you agree to its <a href="" >license</a> and <a href="">privacy statement</a>.</p>
+
+        </div>
+
+        <div class="right">
+            <img width="720" src="resource/home-screenshot-mac-2x-v2.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html> 
